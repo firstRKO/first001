@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>เมนูหลัก</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            h3 {
+            font-family: 'Chakra Petch', sans-serif; /* ใช้ Chakra Petch สำหรับหัวข้อ */
+        }
+        p {
+            font-family: 'Chakra Petch', sans-serif; /* ใช้ Chakra Petch สำหรับหัวข้อ */
+        }
+            .navbar {
+                background-color: #ff8800;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 20px;
+            }
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                padding: 14px 20px;
+            }
+            .navbar a:hover {
+                background-color: #575757;
+            }
+            .search-box {
+                display: flex;
+            }
+            .search-box input {
+                padding: 5px;
+                border: none;
+                border-radius: 3px;
+            }
+            .search-box button {
+                padding: 5px 10px;
+                border: none;
+                background-color: #ff9800;
+                color: white;
+                cursor: pointer;
+                border-radius: 3px;
+            }
+            .search-box button:hover {
+                background-color: #e68900;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div>
+                <img src="MMT.png" alt="ภาพตัวอย่าง" width="20%" height="20%">
+      <a class="navbar-brand" href="index.html">Home</a>
+                <a href="หลักสูตร.html">หลักสูตร</a>
+                <a href="teacher.html">อาจารประจำสาขา</a>
+                <a href="กิจกรรมในสาขา.html">กิจกรรมในสาขา</a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="ค้นหา...">
+                <button>ค้นหา</button>
+            </div>
+        </div>
+    </body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f7f6f6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery-item {
+            flex: 1 1 calc(33.333% - 40px);
+            box-sizing: border-box;
+            border: 1px solid #0a0a0a;
+            border-radius: 5px;
+            overflow: hidden;
+            background: #f9f9f9;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .gallery-item .content {
+            padding: 15px;
+        }
+        .gallery-item h3 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+        }
+        .gallery-item p {
+            margin: 0;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff8800;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>กิจกรรมในสาขา</h1>
+    </header>
+
+    <div class="container">
+        <h2>กิจกรรมในสาขา</h2>
+        <div class="gallery">
+            <!-- ผลงานที่ 1 -->
+            <div class="gallery-item">
+                <img src="mu.jpg" alt="ผลงานที่ 1">
+                <div class="content">
+                    <h3>กิจกรรมทัศนศึกษา</h3>
+                    <p>วันที่ 31 กรกฎาคม 2567 หลักสูตรเทคโนโลยีมัลติมีเดีย พานักศึกษา ศึกษาดูงาน ณ พิพิธภัณฑ์พระรามเก้า องค์การพิพิธภัณฑ์วิทยาศาสตร์แห่งชาติ และ ศูนย์วิทยาศาสตร์เพื่อการศึกษารังสิต
+                    </p>
+                    <a href="https://www.facebook.com/share/p/12F37JRuy6c/">
+                        <button class="btn btn-outline-primary">รายละเอียด</button>
+                    </a>
+                </div>
+            </div>
+            <!-- ผลงานที่ 2 -->
+            <div class="gallery-item">
+                <img src="mov.jpg" alt="ผลงานที่ 2">
+                <div class="content">
+                    <h3>เทศกาลภาพยนตร์</h3>
+                    <p>นักศึกษาสาขาวิชาเทคโนโลยีมัลติมีเดีย ได้จัดกิจกรรมนิทรรศการเผยแพร่ผลงานสร้างสรรค์ด้านดิจิทัล : เทศกาลภาพยนตร์สั้นสุวรรณภูมิครั้งที่5 +นิทรรศการเผยแพร่สื่อดิจิทัลครั้งที่3 
+                        โดยได้รับเกียรติจาก อาจารย์ ดร.สุวุฒิ ตุ้มทอง คณบดีคณะวิทยาศาสตร์และเทคโนโลยี เป็นประธานในกิจกรรม
+                        ในวันที่ 31 มีนาคม 2564 ณ ห้อง Theatre อาคารบูรณมงคล มทร.สุวรรณภูมิ ศูนย์หันตรา</p>
+                        <a href="https://www.facebook.com/share/p/15MuYGfcXX/">
+                            <button class="btn btn-outline-primary">รายละเอียด</button>
+                </div>
+            </div>
+            <!-- ผลงานที่ 3 -->
+            <div class="gallery-item">
+                <img src="gira.jpg" alt="ผลงานที่ 3">
+                <div class="content">
+                    <h3>การแข่งขันกีฬาสี</h3>
+                    <p>นักศึกษา MMT ร่วมแข่งขันกองเชียร์และผู้นำเชียร์ และ ของคณะวิทยาศาสตร์และเทคโนโลยี ในกีฬาสุวรรณภูมิเกมส์ ครั้งที่ 14 </p>
+                    <a href="https://www.facebook.com/share/v/12ESAwiKboi/">
+                            <button class="btn btn-outline-primary">รายละเอียด</button>
+                </div>
+            </div>
+            <!-- ผลงานที่ 4 -->
+            <div class="gallery-item">
+                <img src="ge.jpg" alt="ผลงานที่ 4">
+                <div class="content">
+                    <h3>โครงการอบรมเชิงปฏิบัติการเพื่อเพิ่มสมรรถนะวิชาชีพ</h3>
+                    <p>เมื่อวันที่ 6 มีนาคม พ.ศ.2567 หลักสูตรเทคโนโลยี่มัลติมีเดีย ศูนย์หันตรา ได้จัดโครงการอบรมเชิงปฏิบัติการเพื่อเพิ่มสมรรถนะวิชาชีพ ในหัวข้อ Storytelling Content & Creative Marketing โดยคุณจักรี จ่ายกระโทก เจ้าของช่องการ์ตูน โกรกกราก Animation และคณะเป็นวิทยากรในการอบรมในครั้งนี้</p>
+                    <a href="https://www.facebook.com/share/p/15zHA4wBph/">
+                        <button class="btn btn-outline-primary">รายละเอียด</button>
+                </div>
+            </div>
+            <!-- ผลงานที่ 3 -->
+            <div class="gallery-item">
+                <img src="wa.jpg" alt="ผลงานที่ 3">
+                <div class="content">
+                    <h3>นิทรรศการ บูทคณะวิทยาศาสตร์และเทคโนโลยี</h3>
+                    <p>คณาจารย์ นักศึกษา สาขาวิชาเทคโนโลยีมัลติมีเดีย ได้ร่วมออกนิทรรศการ บูทคณะวิทยาศาสตร์และเทคโนโลยี ในกิจกรรมสภากาแฟ เพื่อแสดงผลงาน "Digital Heritage มรดกทางวัฒนธรรม สู่นวัตกรรมดิจิทัล" ให้กับผู้ว่าราชการจังหวัด อธิการบดี และหัวหน้าหน่วยงาน/องค์กรในจังหวัดพระนครศรีอยุธยา</p>
+                    <a href="https://www.facebook.com/share/p/15MuYGfcXX/">
+                        <button class="btn btn-outline-primary">รายละเอียด</button>
+                </div>
+            </div>
+        </div>
+        <a href="index.html">ย้อนกลับ</a>
+    </div>
+
+   
+
+</body>
+</html>

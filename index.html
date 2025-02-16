@@ -25,9 +25,12 @@
     <title>ตัวอย่างเว็บไซต์</title>
 
     <!-- การนำเข้าฟอนต์จาก Google Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
     <style>
@@ -41,6 +44,18 @@
             padding-bottom: 3rem;
             color: rgb(var(--bs-tertiary-color-rgb));
             background-color: #f3f0bf; /* เปลี่ยนสีพื้นหลัง */
+        }
+        h3 {
+            font-family: 'Chakra Petch', sans-serif; /* ใช้ Chakra Petch สำหรับหัวข้อ */
+        }
+        h1 {
+            font-family: 'Chakra Petch', sans-serif; /* ใช้ Chakra Petch สำหรับหัวข้อ */
+        }
+        h2 {
+            font-family: 'Chakra Petch', sans-serif; /* ใช้ Chakra Petch สำหรับหัวข้อ */
+        }
+        p {
+            font-family: 'Chakra Petch', sans-serif; /* ใช้ Chakra Petch สำหรับหัวข้อ */
         }
 
         /* ปรับแต่ง navbar */
@@ -139,21 +154,21 @@
 <header data-bs-theme="dark">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <img src="lo.png" alt="ภาพตัวอย่าง" width="3%" height="3%">
-      <a class="navbar-brand" href="#">หลักสูตร</a>
+      <img src="MMT.png" alt="ภาพตัวอย่าง" width="10%" height="10%">
+      <a class="navbar-brand" href="index.html">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">อาจารย์ประจำสาขา</a>
+            <a class="nav-link active" aria-current="page" href="หลักสูตร.html">หลักสูตร</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">สมัครเรียน</a>
+            <a class="nav-link" href="teacher.html">อาจารประจำสาขา</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">กิจกรรมในสาขา</a>
+            <a class="nav-link active" aria-current="true" href="กิจกรรมในสาขา.html">กิจกรรมในสาขา</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -182,7 +197,7 @@
           <div class="carousel-caption text-start">
             <h1>ประกาศรายชื่อผู้ผ่านการคัดเลือกเข้าศึกษา ครั้งที่ 1</h1>
             <p class="opacity-75">ประจำปีการศึกษา 2568 ระบบรับตรง</p>
-            <p><a class="btn btn-lg btn-primary" href="#">คลิก</a></p>
+            <p><a class="btn btn-lg btn-primary" href="https://admis.rmutsb.ac.th/newsdetail/5ef059938ba799aaa845e1c2e8a762bd">คลิก</a></p>
           </div>
         </div>
       </div>
@@ -194,7 +209,7 @@
           <div class="carousel-caption">
             <h1>ประกาศรายชื่อผู้ผ่านการคัดเลือกเข้าศึกษา ครั้งที่ 2</h1>
             <p>ประจำปีการศึกษา 2568 ระบบรับตรง</p>
-            <p><a class="btn btn-lg btn-primary" href="#">คลิก</a></p>
+            <p><a class="btn btn-lg btn-primary" href="https://admis.rmutsb.ac.th/newsdetail/5fd0b37cd7dbbb00f97ba6ce92bf5add">คลิก</a></p>
           </div>
         </div>
       </div>
@@ -207,7 +222,7 @@
             <div style="background-image: url('_MG_09834.jpg'); background-size: cover; height: 500px;"></div>
             <h1>ประกาศรายชื่อผู้ผ่านการคัดเลือกเข้าศึกษา ครั้งที่ 3</h1>
             <p>ประจำปีการศึกษา 2568 ระบบรับตรง</p>
-            <p><a class="btn btn-lg btn-primary" href="#">คลิก</a></p>
+            <p><a class="btn btn-lg btn-primary" href="https://admis.rmutsb.ac.th/newsdetail/2b44928ae11fb9384c4cf38708677c48">คลิก</a></p>
           </div>
         </div>
       </div>
@@ -240,51 +255,169 @@
         <div class="container">
         <div class="row featurette align-items-center">
         <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">ประวัติของมหาวิทยาลัย </h2>
-          <p class="lead">มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ เป็นหนึ่งในเก้ามหาวิทยาลัยเทคโนโลยีราชมงคล ซึ่งได้รับการสถาปนาเป็นมหาวิทยาลัย เมื่อวันที่ ๑๘ มกราคม พ.ศ. ๒๕๔๘ มีฐานะเป็นสถาบันอุดมศึกษาของรัฐ ภายใต้การกำกับดูแลของสำนักงานคณะกรรมการการอุดมศึกษา สังกัดกระทรวงศึกษาธิการ มีพื้นที่จัดการศึกษา ๔ แห่งคือ สำนักงานอธิการบดี ตั้งอยู่ที่ ตำบลหันตรา อำเภอพระนครศรีอยุธยา จังหวัดพระนครศรีอยุธยา ศูนย์วาสุกรี ตั้งอยู่ที่ ตำบลท่าวาสุกรี อำเภอพระนครศรีอยุธยา จังหวัดพระนครศรีอยุธยา ศูนย์นนทบุรี ตั้งอยู่ที่ ตำบลสวนใหญ่ อำเภอเมือง จังหวัดนนทบุรี และ ศูนย์สุพรรณบุรี ตั้งอยู่ที่ตำบลย่านยาว อำเภอสามชุก จังหวัดสุพรรณบุรี</p>
+          <h2 class="featurette-heading fw-normal lh-1">หลักสูตร ระดับปริญญาตรี สาขาวิชาเทคโนโลยีมัลติมีเดีย</h2>
+          <p class="lead">หลักสูตรเทคโนโลยีบัณฑิต สาขาวิชาเทคโนโลยีมัลติมีเดียชื่อหลักสูตร ภาษาไทย: หลักสูตรเทคโนโลยีบัณฑิต สาขาวิชาเทคโนโลยีมัลติมีเดียภาษาอังกฤษ: Bachelor of Technology Program in Multimedia Technology</p>
+          <p>ชื่อปริญญาและสาขาวิชาชื่อเต็ม (ไทย) เทคโนโลยีบัณฑิต (เทคโนโลยีมัลติมีเดีย)ชื่อย่อ (ไทย) ทล.บ.(เทคโนโลยีมัลติมีเดีย)ชื่อเต็ม (อังกฤษ) Bachelor of Technology (Multimedia Technology)ชื่อย่อ (อังกฤษ) B.Tech. (Multimedia Technology)
+            facebook :multimedia_technology_rmutsb</p>
         </div>
         <div class="col-md-5">
-          <img src="78.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%"
+          <img src="ta1.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%"
           height="auto" margin="auto
           " role="img">
             <title>Digital Heritage</title>
         </div>
     </div>
 
-    <hr class="featurette-divider">
+    <!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>กิจกรรมของสาขา</title>
+    <style>
+        body {
+            background-color: rgba(247, 226, 38, 0.733);
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .activity {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .activity img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .activity-content h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .activity-content p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .more-link {
+            text-align: right;
+            margin-top: 10px;
+        }
+        .more-link a {
+            color: #e68900;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>กิจกรรมของสาขา</h1>
+        
+        <div class="activity">
+            <img src="mu.jpg" alt="Digital Heritage">
+            <div class="activity-content">
+                <h2>กิจกรรมทัศนศึกษา</h2>
+                <p>วันที่ 31 กรกฎาคม 2567 หลักสูตรเทคโนโลยีมัลติมีเดีย พานักศึกษา ศึกษาดูงาน ณ พิพิธภัณฑ์พระรามเก้า องค์การพิพิธภัณฑ์วิทยาศาสตร์แห่งชาติ และ ศูนย์วิทยาศาสตร์เพื่อการศึกษารังสิต</p>
+            </div>
+        </div>
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">สีและต้นไม้ประจำมหาวิทยาลัย <span class="text-body-secondary">เทคโนโลยีราชมงคลสุวรรณภูมิ</span></h2>
-        <p class="lead">   มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ เลือก "ตันลีลาวดีสุวรรณภูมิ" เป็นต้นไม้ประจำมหาวิทยาลัย ซึ่งมีความทนทานต่อทุกฤดูกาล ยิ่งมีอายุยืนยาวยิ่งมีคุณค่า ลีลาวดีสุวรรณภูมิ มีดอกสีเหลืองทอง กลิ่นหอมจรุงใจ จึงหมายความว่า ชาวสุวรรณภูมิทุกคน จะมีความอดทน มีความดีงามมีคุณค่า ประดุจต้นลีลาวดีสุวรรณภูมิ นั่นเอง</p>
-      </div>
-      <div class="col-md-5">
-        <img src="dod.jpg" class="bd-placeholder-img bd-placeholder-img-lg style="width: 50%; height: auto%; object-fit: cover;">
-          <title>Digital Heritage</title>
-      </div>
+        <div class="activity">
+            <img src="mov.jpg" alt="Painting">
+            <div class="activity-content">
+                <h2>เทศกาลภาพยนตร์</h2>
+                <p>นักศึกษาสาขาวิชาเทคโนโลยีมัลติมีเดีย ได้จัดกิจกรรมนิทรรศการเผยแพร่ผลงานสร้างสรรค์ด้านดิจิทัล : เทศกาลภาพยนตร์สั้นสุวรรณภูมิครั้งที่5</p>
+            </div>
+        </div>
+
+        <div class="activity">
+            <img src="gira.jpg" alt="Storytelling Content">
+            <div class="activity-content">
+                <h2>การแข่งขันกีฬาสี</h2>
+                <p>นักศึกษา MMT ร่วมแข่งขันกองเชียร์และผู้นำเชียร์ และ ของคณะวิทยาศาสตร์และเทคโนโลยี ในกีฬาสุวรรณภูมิเกมส์ ครั้งที่ 14</p>
+            </div>
+        </div>
+
+        <div class="activity">
+            <img src="wa.jpg" alt="Voice Acting">
+            <div class="activity-content">
+                <h2>นิทรรศการ บูทคณะวิทยาศาสตร์และเทคโนโลยีง</h2>
+                <p>คณาจารย์ นักศึกษา สาขาวิชาเทคโนโลยีมัลติมีเดีย ได้ร่วมออกนิทรรศการ บูทคณะวิทยาศาสตร์และเทคโนโลยี ในกิจกรรมสภากาแฟ เพื่อแสดงผลงาน "Digital Heritage มรดกทางวัฒนธรรม สู่นวัตกรรมดิจิทัล" ให้กับผู้ว่าราชการจังหวัด อธิการบดี และหัวหน้าหน่วยงาน/องค์กรในจังหวัดพระนครศรีอยุธยา</p>
+            </div>
+        </div>
+
+        <div class="more-link">
+            <a href="กิจกรรมในสาขา.html">ดูข่าวทั้งหมด</a>
+        </div>
     </div>
+</body>
+</html>
 
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">ตราสัญลักษณ์ <span class="text-body-secondary">มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ</span></h2>
-        <p class="lead">ประกอบด้วย ดวงตราพระราชลัญจกรประจำพระองค์พระมหากษัตริย์ รัชกาลที่ ๙ อยู่ภายในวงกลม
-          มีรูป ดอกบัว ๘ กลีบ เหนือวงกลมมี เลข ๙ และ พระมหาพิชัยมงกุฎ ครอบ ใต้วงกลมมีแถบโค้งรองรับ
-          
-          ภายในบรรจุอักษรชื่อ มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ 
-          ดวงตราพระราชลัญจกร เลข ๙ และพระมหาพิชัยมงกุฎ สื่อความหมายถึง มีพระมหากรุณาธิคุณที่ พระบาทสมเด็จพระเจ้าอยู่หัวภูมิพลอดุยเดช
-          ที่ทรงพระราชทานพระบรมราชานุญาตให้เชิญพระราชลัญจกรประจำพระองค์และพระมหาพิชัยมงกุฎเป็นเครื่องหมายราชการ
-          รูปดอกบัว ๘ กลีบ สื่อความหมายถึง ความสดชื่นเบิกบานที่ก่อให้เกิดปัญญาแผ่ขจรไปทั่วสารทิศ</p>
-      </div>
-      <div class="col-md-5">
-        <img src="sa.jpg" alt="Banner Image" class="bd-placeholder-img"
-          style="width: 50%; height: auto%; object-fit: cover;">
-      </div>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รายวิชาเทคโนโลยีมัลติมีเดีย</title>
+    <style>
+        
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            background-color: gray;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; 
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: black;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>คลิปแนะนำสาขาวิชาเทคโนโลยีมัลติมีเดีย</h1>
+        <p>หลักสูตรนี้มุ่งเน้นการพัฒนาทักษะด้านสื่อดิจิทัล ครอบคลุมการออกแบบกราฟิก การตัดต่อวิดีโอ แอนิเมชัน และการพัฒนาเนื้อหาเชิงโต้ตอบ เหมาะสำหรับผู้ที่ต้องการทำงานด้านสื่อสร้างสรรค์ โฆษณา และอุตสาหกรรมบันเทิงในยุคดิจิทัล</p>
+        <a href="หลักสูตร.html" class="btn">รายละเอียดรายวิชา</a>
+        <div class="video-container">
+          <iframe width="1050" height="500" src="https://www.youtube.com/embed/i-Jtnw7v4Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+        </div>
     </div>
-
-    <hr class="featurette-divider">
-
+</body>
+</html>
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
